@@ -3,13 +3,29 @@
     
 }
 
+.section-two {
+    background-color: rgb(254, 244, 232)
+}
 .section-three {
-    background-color: ;
+    background-color: rgb(225, 184, 146);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.section-four {
+background-color: rgb(44, 29, 15);
+color: rgb(254, 244, 232);
+padding: 20px;
+
+
+}
 .footer {
     background-color: black;
     color: peachpuff;
+    text-align: center;
+   
 }
 
 .header {
@@ -63,8 +79,10 @@ a {
 
 #info {
     text-align: center;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 800;
+    margin: 0px;
+    padding: 20px;
 }
 
 .container {
@@ -79,6 +97,7 @@ a {
     background-color: rgb(247, 215, 186);
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: 40px;
 }
 
 .infotext {
@@ -96,4 +115,37 @@ img {
     border-width: 1px;
     border-style: solid;
     border-radius: 6px;
+}
+
+#quote {
+    margin: 0;
+    padding: 40px 0 0 0;
+    font-style: italic;
+    width: 300px;
+    font-size: 30px;
+    color: rgb(254, 244, 232);
+
+}
+
+#architect {
+    color: rgb(249, 231, 214);
+    padding: 0 0 25px 180px;
+}
+
+.signupcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#signupnow {
+    padding: 0 30px;
+    border-radius: 10px;
+    background-color: rgb(249, 231, 214);
+}
+
+#footer {
+    margin: 0;
+    padding: 20px;
+    font-size: 12px;
 }
