@@ -1,0 +1,1 @@
+This is my very first website project, following the foundations course of The Odin Project.
